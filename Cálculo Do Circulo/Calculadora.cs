@@ -11,17 +11,17 @@ namespace Cálculo_Do_Circulo
     class Calculadora
     {
         //Instanciação da variável Pi, que neste caso sempre será 3.14.
-        public double Pi = 3.14;
+        public static double Pi = 3.14;
 
         //Instanciação da variável Circunferencia.
-        public double Circunferencia(double r)
+        public static double Circunferencia(double r)
         {
             //Fórmula para calcular o resultado da variável Circunferencia.
             return 2.0 * Pi * r;
         }
 
         //Instanciação da variável Volume.
-        public double Volume(double r)
+        public static double Volume(double r)
         {
             //Fórmula para calcular o resultado da variável Volume.
             return 4.0 / 3.0 * Pi * r * r * r;
